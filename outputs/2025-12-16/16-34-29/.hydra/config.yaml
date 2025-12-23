@@ -1,0 +1,8 @@
+data_path: /mnt/data/datasets/imagenet/val
+bandwidth: 0.05
+kernel: gaussian
+num_samples: 50000
+batch_size: 64
+num_workers: 4
+output_plot: imagenet_kde_sklearn.png
+output_dir: class_stats
