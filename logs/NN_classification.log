@@ -385,3 +385,238 @@
 2025-12-24 15:01:41,711 - INFO - Top-9 Superclass NN Accuracy: 48.60%
 2025-12-24 15:01:41,712 - INFO - Top-10 NN Accuracy: 4.72%
 2025-12-24 15:01:41,712 - INFO - Top-10 Superclass NN Accuracy: 50.86%
+2025-12-28 11:40:50,603 - INFO - Building dataset...
+2025-12-28 11:40:50,652 - INFO - Dataset has 50000 images.
+2025-12-28 11:40:50,652 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_REAL.pt...
+2025-12-28 11:44:00,848 - INFO - Computing distance matrix with p = l2
+2025-12-28 11:44:00,848 - INFO - Building dataset...
+2025-12-28 11:44:00,896 - INFO - Dataset has 50000 images.
+2025-12-28 11:44:00,896 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l2.pt...
+2025-12-28 11:44:03,661 - INFO - Finding top-10 nearest neighbors...
+2025-12-28 11:44:03,928 - INFO - Top-1 NN Accuracy: 0.95%
+2025-12-28 11:44:03,928 - INFO - Top-1 Superclass NN Accuracy: 11.18%
+2025-12-28 11:44:03,934 - INFO - Top-2 NN Accuracy: 1.55%
+2025-12-28 11:44:03,934 - INFO - Top-2 Superclass NN Accuracy: 19.50%
+2025-12-28 11:44:03,935 - INFO - Top-3 NN Accuracy: 2.09%
+2025-12-28 11:44:03,935 - INFO - Top-3 Superclass NN Accuracy: 26.26%
+2025-12-28 11:44:03,935 - INFO - Top-4 NN Accuracy: 2.57%
+2025-12-28 11:44:03,935 - INFO - Top-4 Superclass NN Accuracy: 31.80%
+2025-12-28 11:44:03,936 - INFO - Top-5 NN Accuracy: 2.96%
+2025-12-28 11:44:03,936 - INFO - Top-5 Superclass NN Accuracy: 36.35%
+2025-12-28 11:44:03,936 - INFO - Top-6 NN Accuracy: 3.35%
+2025-12-28 11:44:03,937 - INFO - Top-6 Superclass NN Accuracy: 40.16%
+2025-12-28 11:44:03,937 - INFO - Top-7 NN Accuracy: 3.68%
+2025-12-28 11:44:03,937 - INFO - Top-7 Superclass NN Accuracy: 43.42%
+2025-12-28 11:44:03,938 - INFO - Top-8 NN Accuracy: 4.03%
+2025-12-28 11:44:03,938 - INFO - Top-8 Superclass NN Accuracy: 46.26%
+2025-12-28 11:44:03,939 - INFO - Top-9 NN Accuracy: 4.37%
+2025-12-28 11:44:03,939 - INFO - Top-9 Superclass NN Accuracy: 48.60%
+2025-12-28 11:44:03,939 - INFO - Top-10 NN Accuracy: 4.72%
+2025-12-28 11:44:03,940 - INFO - Top-10 Superclass NN Accuracy: 50.86%
+2025-12-28 11:44:04,131 - INFO - Computing distance matrix with p = l1
+2025-12-28 11:44:04,131 - INFO - Building dataset...
+2025-12-28 11:44:04,179 - INFO - Dataset has 50000 images.
+2025-12-28 11:44:04,179 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l1.pt...
+2025-12-28 11:44:06,864 - INFO - Finding top-10 nearest neighbors...
+2025-12-28 11:44:07,134 - INFO - Top-1 NN Accuracy: 1.35%
+2025-12-28 11:44:07,134 - INFO - Top-1 Superclass NN Accuracy: 12.58%
+2025-12-28 11:44:07,135 - INFO - Top-2 NN Accuracy: 2.12%
+2025-12-28 11:44:07,135 - INFO - Top-2 Superclass NN Accuracy: 21.67%
+2025-12-28 11:44:07,135 - INFO - Top-3 NN Accuracy: 2.76%
+2025-12-28 11:44:07,135 - INFO - Top-3 Superclass NN Accuracy: 28.52%
+2025-12-28 11:44:07,135 - INFO - Top-4 NN Accuracy: 3.35%
+2025-12-28 11:44:07,136 - INFO - Top-4 Superclass NN Accuracy: 34.01%
+2025-12-28 11:44:07,136 - INFO - Top-5 NN Accuracy: 3.87%
+2025-12-28 11:44:07,136 - INFO - Top-5 Superclass NN Accuracy: 38.54%
+2025-12-28 11:44:07,136 - INFO - Top-6 NN Accuracy: 4.36%
+2025-12-28 11:44:07,136 - INFO - Top-6 Superclass NN Accuracy: 42.38%
+2025-12-28 11:44:07,137 - INFO - Top-7 NN Accuracy: 4.82%
+2025-12-28 11:44:07,137 - INFO - Top-7 Superclass NN Accuracy: 45.54%
+2025-12-28 11:44:07,137 - INFO - Top-8 NN Accuracy: 5.25%
+2025-12-28 11:44:07,137 - INFO - Top-8 Superclass NN Accuracy: 48.27%
+2025-12-28 11:44:07,138 - INFO - Top-9 NN Accuracy: 5.67%
+2025-12-28 11:44:07,138 - INFO - Top-9 Superclass NN Accuracy: 50.69%
+2025-12-28 11:44:07,138 - INFO - Top-10 NN Accuracy: 6.04%
+2025-12-28 11:44:07,138 - INFO - Top-10 Superclass NN Accuracy: 52.91%
+2025-12-28 11:44:07,335 - INFO - Computing distance matrix with p = linf
+2025-12-28 11:44:07,335 - INFO - Building dataset...
+2025-12-28 11:44:07,382 - INFO - Dataset has 50000 images.
+2025-12-28 11:44:07,382 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_linf.pt...
+2025-12-28 11:44:10,094 - INFO - Finding top-10 nearest neighbors...
+2025-12-28 11:44:10,364 - INFO - Top-1 NN Accuracy: 0.18%
+2025-12-28 11:44:10,364 - INFO - Top-1 Superclass NN Accuracy: 6.22%
+2025-12-28 11:44:10,365 - INFO - Top-2 NN Accuracy: 0.32%
+2025-12-28 11:44:10,365 - INFO - Top-2 Superclass NN Accuracy: 11.79%
+2025-12-28 11:44:10,365 - INFO - Top-3 NN Accuracy: 0.49%
+2025-12-28 11:44:10,365 - INFO - Top-3 Superclass NN Accuracy: 16.85%
+2025-12-28 11:44:10,365 - INFO - Top-4 NN Accuracy: 0.63%
+2025-12-28 11:44:10,365 - INFO - Top-4 Superclass NN Accuracy: 21.57%
+2025-12-28 11:44:10,366 - INFO - Top-5 NN Accuracy: 0.76%
+2025-12-28 11:44:10,366 - INFO - Top-5 Superclass NN Accuracy: 25.75%
+2025-12-28 11:44:10,366 - INFO - Top-6 NN Accuracy: 0.87%
+2025-12-28 11:44:10,366 - INFO - Top-6 Superclass NN Accuracy: 29.53%
+2025-12-28 11:44:10,366 - INFO - Top-7 NN Accuracy: 0.98%
+2025-12-28 11:44:10,367 - INFO - Top-7 Superclass NN Accuracy: 33.01%
+2025-12-28 11:44:10,367 - INFO - Top-8 NN Accuracy: 1.09%
+2025-12-28 11:44:10,367 - INFO - Top-8 Superclass NN Accuracy: 36.26%
+2025-12-28 11:44:10,367 - INFO - Top-9 NN Accuracy: 1.22%
+2025-12-28 11:44:10,367 - INFO - Top-9 Superclass NN Accuracy: 39.19%
+2025-12-28 11:44:10,368 - INFO - Top-10 NN Accuracy: 1.36%
+2025-12-28 11:44:10,368 - INFO - Top-10 Superclass NN Accuracy: 41.97%
+2025-12-28 11:46:16,298 - INFO - Computing distance matrix with p = l2
+2025-12-28 11:46:16,298 - INFO - Building dataset...
+2025-12-28 11:46:16,346 - INFO - Dataset has 50000 images.
+2025-12-28 11:46:16,347 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l2.pt...
+2025-12-28 11:46:19,106 - INFO - Finding top-10 nearest neighbors...
+2025-12-28 11:46:19,368 - INFO - Top-1 NN Accuracy: 0.95%
+2025-12-28 11:46:19,369 - INFO - Top-1 Superclass NN Accuracy: 11.18%
+2025-12-28 11:46:19,369 - INFO - Top-2 NN Accuracy: 1.55%
+2025-12-28 11:46:19,369 - INFO - Top-2 Superclass NN Accuracy: 19.50%
+2025-12-28 11:46:19,369 - INFO - Top-3 NN Accuracy: 2.09%
+2025-12-28 11:46:19,370 - INFO - Top-3 Superclass NN Accuracy: 26.26%
+2025-12-28 11:46:19,370 - INFO - Top-4 NN Accuracy: 2.57%
+2025-12-28 11:46:19,370 - INFO - Top-4 Superclass NN Accuracy: 31.80%
+2025-12-28 11:46:19,370 - INFO - Top-5 NN Accuracy: 2.96%
+2025-12-28 11:46:19,370 - INFO - Top-5 Superclass NN Accuracy: 36.35%
+2025-12-28 11:46:19,371 - INFO - Top-6 NN Accuracy: 3.35%
+2025-12-28 11:46:19,371 - INFO - Top-6 Superclass NN Accuracy: 40.16%
+2025-12-28 11:46:19,371 - INFO - Top-7 NN Accuracy: 3.68%
+2025-12-28 11:46:19,371 - INFO - Top-7 Superclass NN Accuracy: 43.42%
+2025-12-28 11:46:19,371 - INFO - Top-8 NN Accuracy: 4.03%
+2025-12-28 11:46:19,372 - INFO - Top-8 Superclass NN Accuracy: 46.26%
+2025-12-28 11:46:19,372 - INFO - Top-9 NN Accuracy: 4.37%
+2025-12-28 11:46:19,372 - INFO - Top-9 Superclass NN Accuracy: 48.60%
+2025-12-28 11:46:19,373 - INFO - Top-10 NN Accuracy: 4.72%
+2025-12-28 11:46:19,373 - INFO - Top-10 Superclass NN Accuracy: 50.86%
+2025-12-28 11:46:19,557 - INFO - Computing distance matrix with p = l1
+2025-12-28 11:46:19,557 - INFO - Building dataset...
+2025-12-28 11:46:19,604 - INFO - Dataset has 50000 images.
+2025-12-28 11:46:19,604 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l1.pt...
+2025-12-28 11:46:22,303 - INFO - Finding top-10 nearest neighbors...
+2025-12-28 11:46:22,566 - INFO - Top-1 NN Accuracy: 1.35%
+2025-12-28 11:46:22,566 - INFO - Top-1 Superclass NN Accuracy: 12.58%
+2025-12-28 11:46:22,566 - INFO - Top-2 NN Accuracy: 2.12%
+2025-12-28 11:46:22,567 - INFO - Top-2 Superclass NN Accuracy: 21.67%
+2025-12-28 11:46:22,567 - INFO - Top-3 NN Accuracy: 2.76%
+2025-12-28 11:46:22,567 - INFO - Top-3 Superclass NN Accuracy: 28.52%
+2025-12-28 11:46:22,567 - INFO - Top-4 NN Accuracy: 3.35%
+2025-12-28 11:46:22,568 - INFO - Top-4 Superclass NN Accuracy: 34.01%
+2025-12-28 11:46:22,568 - INFO - Top-5 NN Accuracy: 3.87%
+2025-12-28 11:46:22,568 - INFO - Top-5 Superclass NN Accuracy: 38.54%
+2025-12-28 11:46:22,568 - INFO - Top-6 NN Accuracy: 4.36%
+2025-12-28 11:46:22,569 - INFO - Top-6 Superclass NN Accuracy: 42.38%
+2025-12-28 11:46:22,569 - INFO - Top-7 NN Accuracy: 4.82%
+2025-12-28 11:46:22,569 - INFO - Top-7 Superclass NN Accuracy: 45.54%
+2025-12-28 11:46:22,569 - INFO - Top-8 NN Accuracy: 5.25%
+2025-12-28 11:46:22,570 - INFO - Top-8 Superclass NN Accuracy: 48.27%
+2025-12-28 11:46:22,570 - INFO - Top-9 NN Accuracy: 5.67%
+2025-12-28 11:46:22,570 - INFO - Top-9 Superclass NN Accuracy: 50.69%
+2025-12-28 11:46:22,571 - INFO - Top-10 NN Accuracy: 6.04%
+2025-12-28 11:46:22,571 - INFO - Top-10 Superclass NN Accuracy: 52.91%
+2025-12-28 11:46:22,767 - INFO - Computing distance matrix with p = linf
+2025-12-28 11:46:22,767 - INFO - Building dataset...
+2025-12-28 11:46:22,814 - INFO - Dataset has 50000 images.
+2025-12-28 11:46:22,814 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_linf.pt...
+2025-12-28 11:46:25,524 - INFO - Finding top-10 nearest neighbors...
+2025-12-28 11:46:25,789 - INFO - Top-1 NN Accuracy: 0.18%
+2025-12-28 11:46:25,789 - INFO - Top-1 Superclass NN Accuracy: 6.22%
+2025-12-28 11:46:25,789 - INFO - Top-2 NN Accuracy: 0.32%
+2025-12-28 11:46:25,789 - INFO - Top-2 Superclass NN Accuracy: 11.79%
+2025-12-28 11:46:25,789 - INFO - Top-3 NN Accuracy: 0.49%
+2025-12-28 11:46:25,790 - INFO - Top-3 Superclass NN Accuracy: 16.85%
+2025-12-28 11:46:25,790 - INFO - Top-4 NN Accuracy: 0.63%
+2025-12-28 11:46:25,790 - INFO - Top-4 Superclass NN Accuracy: 21.57%
+2025-12-28 11:46:25,790 - INFO - Top-5 NN Accuracy: 0.76%
+2025-12-28 11:46:25,791 - INFO - Top-5 Superclass NN Accuracy: 25.75%
+2025-12-28 11:46:25,791 - INFO - Top-6 NN Accuracy: 0.87%
+2025-12-28 11:46:25,791 - INFO - Top-6 Superclass NN Accuracy: 29.53%
+2025-12-28 11:46:25,791 - INFO - Top-7 NN Accuracy: 0.98%
+2025-12-28 11:46:25,792 - INFO - Top-7 Superclass NN Accuracy: 33.01%
+2025-12-28 11:46:25,792 - INFO - Top-8 NN Accuracy: 1.09%
+2025-12-28 11:46:25,792 - INFO - Top-8 Superclass NN Accuracy: 36.26%
+2025-12-28 11:46:25,792 - INFO - Top-9 NN Accuracy: 1.22%
+2025-12-28 11:46:25,793 - INFO - Top-9 Superclass NN Accuracy: 39.19%
+2025-12-28 11:46:25,793 - INFO - Top-10 NN Accuracy: 1.36%
+2025-12-28 11:46:25,793 - INFO - Top-10 Superclass NN Accuracy: 41.97%
+2025-12-28 11:46:25,988 - INFO - Saved results to results_imagenet_stats/nn_results.json
+2025-12-28 12:04:55,368 - INFO - Computing distance matrix with p = l2
+2025-12-28 12:04:55,369 - INFO - Building dataset...
+2025-12-28 12:04:55,484 - INFO - Dataset has 50000 images.
+2025-12-28 12:04:55,484 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l2.pt...
+2025-12-28 12:04:58,243 - INFO - Finding top-10 nearest neighbors...
+2025-12-28 12:19:30,011 - INFO - Computing distance matrix with p = l1
+2025-12-28 12:19:30,011 - INFO - Building dataset...
+2025-12-28 12:19:30,060 - INFO - Dataset has 50000 images.
+2025-12-28 12:19:30,060 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l1.pt...
+2025-12-28 12:19:32,747 - INFO - Finding top-10 nearest neighbors...
+2025-12-28 12:19:33,013 - INFO - Top-1 NN Accuracy: 1.35%
+2025-12-28 12:19:33,014 - INFO - Top-1 Superclass NN Accuracy: 12.58%
+2025-12-28 12:19:33,014 - INFO - Top-2 NN Accuracy: 2.12%
+2025-12-28 12:19:33,014 - INFO - Top-2 Superclass NN Accuracy: 21.67%
+2025-12-28 12:19:33,015 - INFO - Top-3 NN Accuracy: 2.76%
+2025-12-28 12:19:33,015 - INFO - Top-3 Superclass NN Accuracy: 28.52%
+2025-12-28 12:19:33,015 - INFO - Top-4 NN Accuracy: 3.35%
+2025-12-28 12:19:33,015 - INFO - Top-4 Superclass NN Accuracy: 34.01%
+2025-12-28 12:19:33,016 - INFO - Top-5 NN Accuracy: 3.87%
+2025-12-28 12:19:33,016 - INFO - Top-5 Superclass NN Accuracy: 38.54%
+2025-12-28 12:19:33,016 - INFO - Top-6 NN Accuracy: 4.36%
+2025-12-28 12:19:33,016 - INFO - Top-6 Superclass NN Accuracy: 42.38%
+2025-12-28 12:19:33,017 - INFO - Top-7 NN Accuracy: 4.82%
+2025-12-28 12:19:33,017 - INFO - Top-7 Superclass NN Accuracy: 45.54%
+2025-12-28 12:19:33,017 - INFO - Top-8 NN Accuracy: 5.25%
+2025-12-28 12:19:33,018 - INFO - Top-8 Superclass NN Accuracy: 48.27%
+2025-12-28 12:19:33,018 - INFO - Top-9 NN Accuracy: 5.67%
+2025-12-28 12:19:33,019 - INFO - Top-9 Superclass NN Accuracy: 50.69%
+2025-12-28 12:19:33,019 - INFO - Top-10 NN Accuracy: 6.04%
+2025-12-28 12:19:33,020 - INFO - Top-10 Superclass NN Accuracy: 52.91%
+2025-12-28 12:19:33,205 - INFO - Computing distance matrix with p = l2
+2025-12-28 12:19:33,205 - INFO - Building dataset...
+2025-12-28 12:19:33,253 - INFO - Dataset has 50000 images.
+2025-12-28 12:19:33,253 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l2.pt...
+2025-12-28 12:19:36,036 - INFO - Finding top-10 nearest neighbors...
+2025-12-28 12:19:36,294 - INFO - Top-1 NN Accuracy: 0.95%
+2025-12-28 12:19:36,294 - INFO - Top-1 Superclass NN Accuracy: 11.18%
+2025-12-28 12:19:36,294 - INFO - Top-2 NN Accuracy: 1.55%
+2025-12-28 12:19:36,295 - INFO - Top-2 Superclass NN Accuracy: 19.50%
+2025-12-28 12:19:36,295 - INFO - Top-3 NN Accuracy: 2.09%
+2025-12-28 12:19:36,295 - INFO - Top-3 Superclass NN Accuracy: 26.26%
+2025-12-28 12:19:36,296 - INFO - Top-4 NN Accuracy: 2.57%
+2025-12-28 12:19:36,296 - INFO - Top-4 Superclass NN Accuracy: 31.80%
+2025-12-28 12:19:36,296 - INFO - Top-5 NN Accuracy: 2.96%
+2025-12-28 12:19:36,296 - INFO - Top-5 Superclass NN Accuracy: 36.35%
+2025-12-28 12:19:36,297 - INFO - Top-6 NN Accuracy: 3.35%
+2025-12-28 12:19:36,297 - INFO - Top-6 Superclass NN Accuracy: 40.16%
+2025-12-28 12:19:36,297 - INFO - Top-7 NN Accuracy: 3.68%
+2025-12-28 12:19:36,297 - INFO - Top-7 Superclass NN Accuracy: 43.42%
+2025-12-28 12:19:36,298 - INFO - Top-8 NN Accuracy: 4.03%
+2025-12-28 12:19:36,298 - INFO - Top-8 Superclass NN Accuracy: 46.26%
+2025-12-28 12:19:36,298 - INFO - Top-9 NN Accuracy: 4.37%
+2025-12-28 12:19:36,298 - INFO - Top-9 Superclass NN Accuracy: 48.60%
+2025-12-28 12:19:36,299 - INFO - Top-10 NN Accuracy: 4.72%
+2025-12-28 12:19:36,299 - INFO - Top-10 Superclass NN Accuracy: 50.86%
+2025-12-28 12:19:36,489 - INFO - Computing distance matrix with p = linf
+2025-12-28 12:19:36,489 - INFO - Building dataset...
+2025-12-28 12:19:36,537 - INFO - Dataset has 50000 images.
+2025-12-28 12:19:36,537 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_linf.pt...
+2025-12-28 12:19:39,262 - INFO - Finding top-10 nearest neighbors...
+2025-12-28 12:19:39,533 - INFO - Top-1 NN Accuracy: 0.18%
+2025-12-28 12:19:39,533 - INFO - Top-1 Superclass NN Accuracy: 6.22%
+2025-12-28 12:19:39,533 - INFO - Top-2 NN Accuracy: 0.32%
+2025-12-28 12:19:39,533 - INFO - Top-2 Superclass NN Accuracy: 11.79%
+2025-12-28 12:19:39,534 - INFO - Top-3 NN Accuracy: 0.49%
+2025-12-28 12:19:39,534 - INFO - Top-3 Superclass NN Accuracy: 16.85%
+2025-12-28 12:19:39,534 - INFO - Top-4 NN Accuracy: 0.63%
+2025-12-28 12:19:39,534 - INFO - Top-4 Superclass NN Accuracy: 21.57%
+2025-12-28 12:19:39,535 - INFO - Top-5 NN Accuracy: 0.76%
+2025-12-28 12:19:39,535 - INFO - Top-5 Superclass NN Accuracy: 25.75%
+2025-12-28 12:19:39,535 - INFO - Top-6 NN Accuracy: 0.87%
+2025-12-28 12:19:39,535 - INFO - Top-6 Superclass NN Accuracy: 29.53%
+2025-12-28 12:19:39,536 - INFO - Top-7 NN Accuracy: 0.98%
+2025-12-28 12:19:39,536 - INFO - Top-7 Superclass NN Accuracy: 33.01%
+2025-12-28 12:19:39,536 - INFO - Top-8 NN Accuracy: 1.09%
+2025-12-28 12:19:39,536 - INFO - Top-8 Superclass NN Accuracy: 36.26%
+2025-12-28 12:19:39,537 - INFO - Top-9 NN Accuracy: 1.22%
+2025-12-28 12:19:39,537 - INFO - Top-9 Superclass NN Accuracy: 39.19%
+2025-12-28 12:19:39,537 - INFO - Top-10 NN Accuracy: 1.36%
+2025-12-28 12:19:39,538 - INFO - Top-10 Superclass NN Accuracy: 41.97%
+2025-12-28 12:19:39,724 - INFO - Saved results to results_imagenet_stats/nn_results.json

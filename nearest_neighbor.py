@@ -3,6 +3,7 @@ import numpy as np
 from torchvision import datasets, transforms
 import logging
 import os
+import json
 
 # Set up logging
 os.makedirs("logs", exist_ok=True)
@@ -93,10 +94,19 @@ def nn_classification(
     return results_list
 
 if __name__ == "__main__":
-    results = nn_classification(
-        eval_dir="/mnt/data/datasets/imagenet/val/",
-        dist_matrix_path="results_imagenet_stats/val_dist_matrix_REAL.pt",
-        k_list=list(range(1, 11))
-    )
+    norms = ['l1', 'l2', 'linf']
+    results = {}
+    for norm in norms:
+        logger.info(f"Computing distance matrix with p = {norm}")
+        results[norm] = nn_classification(
+            eval_dir="/mnt/data/datasets/imagenet/val/",
+            dist_matrix_path=f"results_imagenet_stats/val_dist_matrix_{norm}.pt",
+            k_list=list(range(1, 11))
+        )
 
     print("NN results:", results)
+
+    output_path = "results_imagenet_stats/nn_results.json"
+    with open(output_path, "w") as f:
+        json.dump(results, f, indent=4)
+    logger.info(f"Saved results to {output_path}")
