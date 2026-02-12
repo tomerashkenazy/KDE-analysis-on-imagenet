@@ -5,3 +5,15 @@
     - L1: 2691.4233398438 between classes (470, 861)
   - L2: 13.9871616364 between classes (111, 966)
   - Linf: 0.3137254715 between classes (970, 980)
+
+• Ran the 100-sample test (seed=0, 100 random anchors). Mean of the minimum non‑zero inter‑class distance:
+
+  - L1: 23206.6149902344
+  - L2: 79.9343700790
+  - Linf: 0.5952549186
+
+  • 2000‑image run (seed=0):
+
+  - L1: 23048.3816943359
+  - L2: 79.0079888878
+  - Linf: 0.5990647201
