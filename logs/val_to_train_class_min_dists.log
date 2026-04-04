@@ -1,0 +1,140 @@
+2026-03-29 16:28:32,815 - INFO - Using device: cuda
+2026-03-29 16:28:32,815 - INFO - Building datasets with identical transforms for train and val.
+2026-03-29 16:28:34,119 - INFO - Val images: 32 (from total 50000)
+2026-03-29 16:28:34,119 - INFO - Classes: 1000
+2026-03-29 16:28:34,120 - INFO - Train samples per class: min=16 max=16 mean=16.0
+2026-03-29 16:28:34,120 - INFO - Creating memmap at results_imagenet_stats/val_train_class_min_dists_l1_l2_linf_50000x1000x3.f32.mmap
+2026-03-29 16:29:41,032 - INFO - Finished val batch 0: wrote rows [0, 8)
+2026-03-29 16:30:43,163 - INFO - Finished val batch 1: wrote rows [8, 16)
+2026-03-29 16:31:45,779 - INFO - Finished val batch 2: wrote rows [16, 24)
+2026-03-29 16:32:47,593 - INFO - Finished val batch 3: wrote rows [24, 32)
+2026-03-29 16:32:47,594 - INFO - Converting memmap to torch tensor and saving .pt to results_imagenet_stats/val_train_class_min_dists_l1_l2_linf_50000x1000x3.pt
+2026-03-29 16:32:47,595 - INFO - Done. Saved tensor shape (32, 1000, 3)
+2026-03-29 16:49:02,877 - INFO - Using device: cuda
+2026-03-29 16:49:02,877 - INFO - Building datasets with identical transforms for train and val.
+2026-03-29 16:53:53,325 - INFO - Using device: cuda
+2026-03-29 16:53:53,325 - INFO - Building datasets with identical transforms for train and val.
+2026-03-29 16:53:54,619 - INFO - Val images: 50000 (from total 50000)
+2026-03-29 16:53:54,619 - INFO - Classes: 1000
+2026-03-29 16:53:54,622 - INFO - Train samples per class: min=732 max=1300 mean=1281.2
+2026-03-29 16:53:54,622 - INFO - Creating memmap at results_imagenet_stats/val_train_class_min_dists_l1_l2_linf_50000x1000x3.f32.mmap
+2026-03-29 17:22:53,841 - INFO - Using device: cuda
+2026-03-29 17:22:53,847 - INFO - Building datasets with identical transforms for train and val.
+2026-03-29 17:22:55,151 - INFO - Val images: 50000 (from total 50000)
+2026-03-29 17:22:55,151 - INFO - Classes: 1000
+2026-03-29 17:22:55,154 - INFO - Train samples per class: min=732 max=1300 mean=1281.2
+2026-03-29 17:22:55,154 - INFO - Creating memmap at results_imagenet_stats/val_train_class_min_dists_l1_l2_linf_50000x1000x3.f32.mmap
+2026-03-29 17:37:11,688 - INFO - Using device: cuda
+2026-03-29 17:37:11,688 - INFO - Building datasets with identical transforms for train and val.
+2026-03-29 17:37:11,688 - INFO - Distance mode: full-feature torch.cdist for L1/L2/Linf (feature chunking disabled).
+2026-03-29 17:37:13,000 - INFO - Val images: 50000 (from total 50000)
+2026-03-29 17:37:13,000 - INFO - Classes: 1000
+2026-03-29 17:37:13,003 - INFO - Train samples per class: min=732 max=1300 mean=1281.2
+2026-03-29 17:37:13,003 - INFO - Creating memmap at results_imagenet_stats/val_train_class_min_dists_l1_l2_linf_50000x1000x3.f32.mmap
+2026-03-29 18:28:19,770 - INFO - Using device: cuda
+2026-03-29 18:28:19,770 - INFO - Building datasets with identical transforms for train and val.
+2026-03-29 18:28:19,770 - INFO - Distance mode: full-feature torch.cdist for L1/L2/Linf (feature chunking disabled).
+2026-03-29 18:28:22,696 - INFO - Val images: 50000 (from total 50000)
+2026-03-29 18:28:22,696 - INFO - Classes: 1000
+2026-03-29 18:28:22,705 - INFO - Train samples per class: min=732 max=1300 mean=1281.2
+2026-03-29 18:28:22,706 - INFO - Creating memmap at results_imagenet_stats/val_train_class_min_dists_l1_l2_linf_50000x1000x3.f32.mmap
+2026-03-29 19:21:06,304 - INFO - Finished val batch 0: wrote rows [0, 512)
+2026-03-29 20:13:20,413 - INFO - Finished val batch 1: wrote rows [512, 1024)
+2026-03-29 21:05:26,475 - INFO - Finished val batch 2: wrote rows [1024, 1536)
+2026-03-29 21:57:54,874 - INFO - Finished val batch 3: wrote rows [1536, 2048)
+2026-03-29 22:50:10,421 - INFO - Finished val batch 4: wrote rows [2048, 2560)
+2026-03-29 23:42:20,722 - INFO - Finished val batch 5: wrote rows [2560, 3072)
+2026-03-30 00:34:58,193 - INFO - Finished val batch 6: wrote rows [3072, 3584)
+2026-03-30 01:27:25,097 - INFO - Finished val batch 7: wrote rows [3584, 4096)
+2026-03-30 02:19:19,061 - INFO - Finished val batch 8: wrote rows [4096, 4608)
+2026-03-30 03:11:30,947 - INFO - Finished val batch 9: wrote rows [4608, 5120)
+2026-03-30 04:03:34,974 - INFO - Finished val batch 10: wrote rows [5120, 5632)
+2026-03-30 04:55:53,896 - INFO - Finished val batch 11: wrote rows [5632, 6144)
+2026-03-30 05:47:48,675 - INFO - Finished val batch 12: wrote rows [6144, 6656)
+2026-03-30 06:39:52,096 - INFO - Finished val batch 13: wrote rows [6656, 7168)
+2026-03-30 07:31:56,829 - INFO - Finished val batch 14: wrote rows [7168, 7680)
+2026-03-30 08:24:04,029 - INFO - Finished val batch 15: wrote rows [7680, 8192)
+2026-03-30 09:16:11,674 - INFO - Finished val batch 16: wrote rows [8192, 8704)
+2026-03-30 10:09:45,444 - INFO - Finished val batch 17: wrote rows [8704, 9216)
+2026-03-30 11:04:17,239 - INFO - Finished val batch 18: wrote rows [9216, 9728)
+2026-03-30 11:57:48,759 - INFO - Finished val batch 19: wrote rows [9728, 10240)
+2026-03-30 12:51:44,962 - INFO - Finished val batch 20: wrote rows [10240, 10752)
+2026-03-30 13:45:16,429 - INFO - Finished val batch 21: wrote rows [10752, 11264)
+2026-03-30 14:37:38,489 - INFO - Finished val batch 22: wrote rows [11264, 11776)
+2026-03-30 15:29:40,782 - INFO - Finished val batch 23: wrote rows [11776, 12288)
+2026-03-30 16:21:48,619 - INFO - Finished val batch 24: wrote rows [12288, 12800)
+2026-03-30 17:14:02,366 - INFO - Finished val batch 25: wrote rows [12800, 13312)
+2026-03-30 18:06:16,224 - INFO - Finished val batch 26: wrote rows [13312, 13824)
+2026-03-30 18:58:42,020 - INFO - Finished val batch 27: wrote rows [13824, 14336)
+2026-03-30 19:51:06,378 - INFO - Finished val batch 28: wrote rows [14336, 14848)
+2026-03-30 20:43:16,460 - INFO - Finished val batch 29: wrote rows [14848, 15360)
+2026-03-30 21:35:28,407 - INFO - Finished val batch 30: wrote rows [15360, 15872)
+2026-03-30 22:27:25,941 - INFO - Finished val batch 31: wrote rows [15872, 16384)
+2026-03-30 23:19:31,267 - INFO - Finished val batch 32: wrote rows [16384, 16896)
+2026-03-31 00:11:49,293 - INFO - Finished val batch 33: wrote rows [16896, 17408)
+2026-03-31 01:04:26,702 - INFO - Finished val batch 34: wrote rows [17408, 17920)
+2026-03-31 01:56:44,017 - INFO - Finished val batch 35: wrote rows [17920, 18432)
+2026-03-31 02:49:08,330 - INFO - Finished val batch 36: wrote rows [18432, 18944)
+2026-03-31 03:41:34,267 - INFO - Finished val batch 37: wrote rows [18944, 19456)
+2026-03-31 04:33:43,603 - INFO - Finished val batch 38: wrote rows [19456, 19968)
+2026-03-31 05:25:50,664 - INFO - Finished val batch 39: wrote rows [19968, 20480)
+2026-03-31 06:17:59,517 - INFO - Finished val batch 40: wrote rows [20480, 20992)
+2026-03-31 07:10:11,222 - INFO - Finished val batch 41: wrote rows [20992, 21504)
+2026-03-31 08:02:29,640 - INFO - Finished val batch 42: wrote rows [21504, 22016)
+2026-03-31 08:54:39,738 - INFO - Finished val batch 43: wrote rows [22016, 22528)
+2026-03-31 09:46:56,004 - INFO - Finished val batch 44: wrote rows [22528, 23040)
+2026-03-31 10:39:09,934 - INFO - Finished val batch 45: wrote rows [23040, 23552)
+2026-03-31 11:31:21,569 - INFO - Finished val batch 46: wrote rows [23552, 24064)
+2026-03-31 12:23:41,626 - INFO - Finished val batch 47: wrote rows [24064, 24576)
+2026-03-31 13:15:56,222 - INFO - Finished val batch 48: wrote rows [24576, 25088)
+2026-03-31 14:08:04,885 - INFO - Finished val batch 49: wrote rows [25088, 25600)
+2026-03-31 15:00:15,337 - INFO - Finished val batch 50: wrote rows [25600, 26112)
+2026-03-31 15:52:30,787 - INFO - Finished val batch 51: wrote rows [26112, 26624)
+2026-03-31 16:44:38,340 - INFO - Finished val batch 52: wrote rows [26624, 27136)
+2026-03-31 17:36:45,636 - INFO - Finished val batch 53: wrote rows [27136, 27648)
+2026-03-31 18:28:57,335 - INFO - Finished val batch 54: wrote rows [27648, 28160)
+2026-03-31 19:21:05,705 - INFO - Finished val batch 55: wrote rows [28160, 28672)
+2026-03-31 20:13:23,032 - INFO - Finished val batch 56: wrote rows [28672, 29184)
+2026-03-31 21:06:00,970 - INFO - Finished val batch 57: wrote rows [29184, 29696)
+2026-03-31 21:58:06,964 - INFO - Finished val batch 58: wrote rows [29696, 30208)
+2026-03-31 22:50:20,635 - INFO - Finished val batch 59: wrote rows [30208, 30720)
+2026-03-31 23:42:34,070 - INFO - Finished val batch 60: wrote rows [30720, 31232)
+2026-04-01 00:34:51,976 - INFO - Finished val batch 61: wrote rows [31232, 31744)
+2026-04-01 01:26:57,571 - INFO - Finished val batch 62: wrote rows [31744, 32256)
+2026-04-01 02:19:21,540 - INFO - Finished val batch 63: wrote rows [32256, 32768)
+2026-04-01 03:11:17,027 - INFO - Finished val batch 64: wrote rows [32768, 33280)
+2026-04-01 04:03:36,898 - INFO - Finished val batch 65: wrote rows [33280, 33792)
+2026-04-01 04:55:31,249 - INFO - Finished val batch 66: wrote rows [33792, 34304)
+2026-04-01 05:47:39,913 - INFO - Finished val batch 67: wrote rows [34304, 34816)
+2026-04-01 06:39:41,581 - INFO - Finished val batch 68: wrote rows [34816, 35328)
+2026-04-01 07:31:35,551 - INFO - Finished val batch 69: wrote rows [35328, 35840)
+2026-04-01 08:23:38,315 - INFO - Finished val batch 70: wrote rows [35840, 36352)
+2026-04-01 09:15:40,079 - INFO - Finished val batch 71: wrote rows [36352, 36864)
+2026-04-01 10:07:46,263 - INFO - Finished val batch 72: wrote rows [36864, 37376)
+2026-04-01 10:59:47,700 - INFO - Finished val batch 73: wrote rows [37376, 37888)
+2026-04-01 11:52:03,475 - INFO - Finished val batch 74: wrote rows [37888, 38400)
+2026-04-01 12:43:56,411 - INFO - Finished val batch 75: wrote rows [38400, 38912)
+2026-04-01 13:36:12,561 - INFO - Finished val batch 76: wrote rows [38912, 39424)
+2026-04-01 14:28:25,328 - INFO - Finished val batch 77: wrote rows [39424, 39936)
+2026-04-01 15:20:37,136 - INFO - Finished val batch 78: wrote rows [39936, 40448)
+2026-04-01 16:12:41,890 - INFO - Finished val batch 79: wrote rows [40448, 40960)
+2026-04-01 17:04:38,983 - INFO - Finished val batch 80: wrote rows [40960, 41472)
+2026-04-01 17:56:41,776 - INFO - Finished val batch 81: wrote rows [41472, 41984)
+2026-04-01 18:48:41,092 - INFO - Finished val batch 82: wrote rows [41984, 42496)
+2026-04-01 19:40:41,062 - INFO - Finished val batch 83: wrote rows [42496, 43008)
+2026-04-01 20:32:46,156 - INFO - Finished val batch 84: wrote rows [43008, 43520)
+2026-04-01 21:24:44,681 - INFO - Finished val batch 85: wrote rows [43520, 44032)
+2026-04-01 22:16:49,521 - INFO - Finished val batch 86: wrote rows [44032, 44544)
+2026-04-01 23:08:40,544 - INFO - Finished val batch 87: wrote rows [44544, 45056)
+2026-04-02 00:00:44,882 - INFO - Finished val batch 88: wrote rows [45056, 45568)
+2026-04-02 00:52:41,903 - INFO - Finished val batch 89: wrote rows [45568, 46080)
+2026-04-02 01:44:58,463 - INFO - Finished val batch 90: wrote rows [46080, 46592)
+2026-04-02 02:36:47,802 - INFO - Finished val batch 91: wrote rows [46592, 47104)
+2026-04-02 03:28:47,127 - INFO - Finished val batch 92: wrote rows [47104, 47616)
+2026-04-02 04:20:51,385 - INFO - Finished val batch 93: wrote rows [47616, 48128)
+2026-04-02 05:12:57,481 - INFO - Finished val batch 94: wrote rows [48128, 48640)
+2026-04-02 06:05:07,966 - INFO - Finished val batch 95: wrote rows [48640, 49152)
+2026-04-02 06:57:08,089 - INFO - Finished val batch 96: wrote rows [49152, 49664)
+2026-04-02 07:48:31,667 - INFO - Finished val batch 97: wrote rows [49664, 50000)
+2026-04-02 07:48:31,667 - INFO - Converting memmap to torch tensor and saving .pt to results_imagenet_stats/val_train_class_min_dists_l1_l2_linf_50000x1000x3.pt
+2026-04-02 07:48:32,130 - INFO - Done. Saved tensor shape (50000, 1000, 3)
